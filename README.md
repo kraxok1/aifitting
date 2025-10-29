@@ -1,0 +1,2 @@
+# aifitting
+.jn
