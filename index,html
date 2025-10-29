@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Fitting</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #c3ecf7, #a9c9ff);
+    }
+    h1 { color: #222; }
+    p { color: #555; }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      background-color: #0070f3;
+      color: white;
+      transition: background 0.3s;
+    }
+    button:hover { background-color: #0059c9; }
+  </style>
+</head>
+<body>
+  <h1>AI Fitting</h1>
+  <p>AI가 당신에게 어울리는 스타일을 추천합니다 👗</p>
+  <button onclick="alert('AI 피팅 기능은 곧 추가됩니다!')">AI 피팅 시작</button>
+</body>
+</html>
